@@ -6,7 +6,7 @@ Build a model to forecast future hospital emergency admissions based on past eme
 
 The data used in this project is obtained from the __Hospital Episodes Statistics (HES)__ dataset which consists of the record of all patients admitted to NHS (public) hospitals in the United Kingdom. 
 
-Only the date (__"Month_Ending"__) and the treatment speciality type (__"TRETSPEF"__) columns are kept to predict the number of emergency admissions (__"EMERGENCY"__) in the future. All the other columns are dropped. 
+Only the date (__"Month_Ending"__) and the treatment speciality (__"TRETSPEF"__) columns are kept to predict the number of emergency admissions (__"EMERGENCY"__) in the future. All the other columns are dropped. 
 
 Complete dataset available on the [NHS Digital website](https://digital.nhs.uk/data-and-information/publications/statistical/hospital-episode-statistics-for-admitted-patient-care-outpatient-and-accident-and-emergency-data/april-2021---september-2021)
 
