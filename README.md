@@ -16,13 +16,13 @@ The modules needed to run this project can be installed using **pip**
 ## Project's steps:
 
 - Preprocessing the data: 
-    - Normalize the data: to obtain better results.
-    - Interpolate the data: to handle the missing values,
-    - Split data into training set and test set. 
-    - Format the data: to transform the time series problem to a supervised learning problem. 
-    - Reshape data: give the data the 3D shape expected by LSTMs. 
+    - Normalize the data: to obtain better results
+    - Interpolate the data: to handle the missing values
+    - Split data into training set and test set
+    - Format the data: to transform the time series problem to a supervised learning problem
+    - Reshape data: give the data the 3D shape expected by LSTMs
 - Implement the model:
-    -  Build the LSTM model. 
+    -  Build the LSTM model
     -  Train the model 
 
 - Make predictions:
